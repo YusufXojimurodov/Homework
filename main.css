@@ -1,0 +1,108 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: plum;
+}
+.Parent{
+   display: flex;
+   justify-content: center;
+}
+.child-parent{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+}
+.child{
+    width: 35px;
+    height: 60px;
+    background-color: white;
+    border-radius: 12px;
+}
+.Parent1{
+    display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+.child-parent1{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+.Parent2{
+    display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+.child-parent2{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px; 
+}
+.Parent3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.child-parent3{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px; 
+}
+.Parent4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.child-parent4{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px; 
+}
+.Parent5{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.child-parent5{
+    width: 500px;
+    height: 70px;
+    background-color: gray;
+    border: 10px solid plum;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
